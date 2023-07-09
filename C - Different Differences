@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+ 
+using namespace std;
+ 
+ 
+    
+void f(){
+    
+    	int  n,k;
+    	cin >>k>>n;
+    for(int i=1;i<=k;i++){
+    cout<<min(1+i*(i - 1) / 2,n-k+i)<<" ";
+    }
+    cout<<endl;
+	
+    
+    
+        
+}    
+ 
+ 
+int main(){
+    
+    int t;
+    cin>>t;
+    while(t--){
+        f();
+    }
+ 
+    
+}
