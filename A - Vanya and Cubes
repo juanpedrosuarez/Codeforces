@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+ 
+using namespace std;
+ 
+int main(){
+	
+	int n;
+	cin>>n;
+	int s=0;
+	int z = 0;
+	while(z<=n){
+		s++;
+		z = z + ((s*(s+1))/2);
+	}
+	cout<<s-1<<endl;
+ 
+}
